@@ -22,7 +22,7 @@ Class {
 	#instVars : [
 		'led'
 	],
-	#category : #'PharoThings-Lessons'
+	#category : #Blinker
 }
 
 { #category : #initialization }
