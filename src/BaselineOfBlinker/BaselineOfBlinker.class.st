@@ -9,5 +9,10 @@ BaselineOfBlinker >> baseline: spec [
 	"baseline"
 
 	<baseline>
-	spec for: #common do: [ "Packages" spec package: 'Blinker' ]
+	spec for: #common do: [ "Packages" spec package: 'Blinker' ].
+	spec
+		baseline: 'PharoThings'
+		with: [ spec
+				loads: #('default');
+				repository: 'github://pharo-iot/PharoThings/src' ]
 ]
