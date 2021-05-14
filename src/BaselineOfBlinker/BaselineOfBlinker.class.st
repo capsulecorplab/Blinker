@@ -9,7 +9,12 @@ BaselineOfBlinker >> baseline: spec [
 	"baseline"
 
 	<baseline>
-	spec for: #common do: [ "Packages" spec package: 'Blinker' ].
+	spec for: #common do: ["Dependencies" self pharothings: spec. "Packages" spec package: 'Blinker' ].
+	
+]
+
+{ #category : #actions }
+BaselineOfBlinker >> pharothings: spec [
 	spec
 		baseline: 'PharoThings'
 		with: [ spec
