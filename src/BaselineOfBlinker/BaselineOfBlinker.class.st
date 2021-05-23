@@ -19,5 +19,5 @@ BaselineOfBlinker >> pharothings: spec [
 		baseline: 'PharoThings'
 		with: [ spec
 				loads: #('default');
-				repository: 'github://pharo-iot/PharoThings:v0.3.1/src' ]
+				repository: 'github://pharo-iot/PharoThings:v0.3.2/src' ]
 ]
